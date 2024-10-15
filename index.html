@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet"  href="assets/css/fontawesome-free-6.6.0-web/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <title>فروشگاه دیجی کالا</title>
+</head>
+<body>
+<header>
+    <section class="header-top"> <!--- start header-top --->
+        <div class="header-top-right">
+            <img class="logo" src="assets/img/full-horizontal.svg" alt="logo" />
+            <form action="#" method="post">
+
+                <input type="text" placeholder="جستجو" name="search">
+                <label>
+                    <i class="fa fa-search"></i>
+                </label>
+            </form>
+        </div>
+        <div class="header-top-left">
+            <a href="#" class="btn-login-reg">
+                <i class="fas fa-sign-in"></i>
+                <span>ورود | ثبت نام</span>
+            </a>
+            <span class="line"></span>
+            <a href="#"><i class="fa fa-shopping-cart"></i> </a>
+        </div>
+    </section>
+    <!--- end header-top --->
+    <section class="header-bottom"> <!--- start header-bottom --->
+        <div class="header-bottom-right">
+            <ul>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-bars"></i>
+                        دسته بندی کالا
+                    </a>
+                </li>
+                <span class="line"></span>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-percent"></i>
+                        شگفت انگیزها
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-shopping-basket"></i>
+                        سوپرمارکت
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-gift"></i>
+                        کارت هذیه
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-fire"></i>
+                        پرفروش ترین ها
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-tag"></i>
+                        تخفیف و پیشنهادها
+                    </a>
+                </li>
+                <span class="line"></span>
+                <li>
+                    <a href="#">
+
+                        سوالی دارید؟
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+
+                        در دیجی کالا بفروشید!
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+        <div class="header-bottom-left">
+            <a href="#">
+                <i class="fa fa-location-dot"></i>
+                لطفا شهر خود را انتخاب کنید
+            </a>
+        </div>
+    </section>
+
+    <!--- end header-bottom --->
+</header>
+<span class="line-horizintal"></span>
+<main>
+
+<!--    <div class="wrap-container">-->
+
+        <div class="swiper mySwiper ">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    slide1
+<!--                    <a href="#">-->
+<!--                        <div class="wrap-item">-->
+<!--                            <div class="wrap-img">-->
+<!--                                <img src="assets/img/2cb5b26997ec335b85e615074cce73f5523c64bd_1728514297.jpg">-->
+<!--                            </div>-->
+<!--                            <h6>-->
+<!--                                باهاش به سختی پنکیک درست کن-->
+<!--                            </h6>-->
+<!--                        </div>-->
+<!--                    </a>-->
+                </div> <div class="swiper-slide">
+                slide2
+<!--                    <a href="#">-->
+<!--                        <div class="wrap-item">-->
+<!--                            <div class="wrap-img">-->
+<!--                                <img src="assets/img/2cb5b26997ec335b85e615074cce73f5523c64bd_1728514297.jpg">-->
+<!--                            </div>-->
+<!--                            <h6>-->
+<!--                                باهاش به سختی پنکیک درست کن-->
+<!--                            </h6>-->
+<!--                        </div>-->
+<!--                    </a>-->
+                </div> <div class="swiper-slide">
+                slide3
+<!--                    <a href="#">-->
+<!--                        <div class="wrap-item">-->
+<!--                            <div class="wrap-img">-->
+<!--                                <img src="assets/img/2cb5b26997ec335b85e615074cce73f5523c64bd_1728514297.jpg">-->
+<!--                            </div>-->
+<!--                            <h6>-->
+<!--                                باهاش به سختی پنکیک درست کن-->
+<!--                            </h6>-->
+<!--                        </div>-->
+<!--                    </a>-->
+                </div>
+
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+<!--    </div>-->
+</main>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</body>
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        breakpoints: {
+            640: {
+                slidesPerView: 2,
+                spaceBetween: 10,
+            },
+            768: {
+                slidesPerView: 4,
+                spaceBetween: 40,
+            },
+            1024: {
+                slidesPerView: 5,
+                spaceBetween: 50,
+            },
+        },
+    });
+</script>
+</html>

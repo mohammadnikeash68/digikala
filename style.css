@@ -1,0 +1,139 @@
+*{
+    direction: rtl;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color:#000;
+}
+ul,li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.line{
+    border: 1px solid #ccc;
+    height: 20px;
+    margin-left: 20px;
+}
+.line-horizintal{
+    display: flex;
+    border: 1px solid #ccc;
+    width: calc(100% - 2px);
+
+    /*height: 10px;*/
+}
+/* start header */
+header{
+    margin-top: 20px !important;
+    padding: 0px 139px 0px 139px;
+    margin: 0 auto;
+}
+.header-top{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-top-right{
+    display: flex;
+}
+.header-top-right form {
+    position: relative;
+}
+.header-top-right form i{
+    position: absolute;
+    top: 14px;
+    right: 15px;
+    color: #a1a3a8;
+    padding-right: 10px;
+}
+
+.header-top-right input{
+    width: 600px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: #f0f0f1;
+    outline: none;
+    padding-right: 50px;
+    margin-right: 15px;
+    box-sizing: border-box;
+
+}
+.header-top .header-top-right .logo{
+    width: 150px;
+}
+.header-top .header-top-left{
+    display: flex;
+    align-items: center;
+}
+.header-top .header-top-left i{
+    margin: 0px 10px;
+}
+.header-top .header-top-left .btn-login-reg{
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.header-top .header-top-left span.line{
+    border: 1px solid #e0e0e2;
+    height: 25px;
+    width: 0px;
+    padding: 0;
+    color: #e0e0e2;
+    margin: 0px 10px;
+}
+/*header bottom*/
+.header-bottom{
+    margin:20px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.header-bottom .header-bottom-right ul{
+    display: flex;
+}
+.header-bottom .header-bottom-right ul li{
+    margin-left: 15px;
+}
+.header-bottom .header-bottom-right ul li a{}
+.header-bottom .header-bottom-left i{
+    margin-left: 5px;
+}
+/*main*/
+.wrap-container{
+    padding: 0px 283px;
+
+}
+.slide-adver{
+    width: 100%;
+    height: 60px;
+    background-color: red;
+}
+.wrap-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding: 2px;
+    border: 3px solid #c650a1;
+}
+.wrap-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.slide-adver ul{
+    display: flex;
+}
+.slide-adver ul h6{
+    padding: 5px;
+}
