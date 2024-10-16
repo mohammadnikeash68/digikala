@@ -5,6 +5,7 @@
 body{
     margin: 0;
     padding: 0;
+    padding-bottom: 100px;
 }
 a{
     text-decoration: none;
@@ -12,6 +13,10 @@ a{
 }
 ul,li{
     list-style: none;
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6{
     margin: 0;
     padding: 0;
 }
@@ -112,12 +117,12 @@ header{
 /*main*/
 .wrap-container{
     padding: 0px 283px;
+    margin-top: 10px;
 
 }
 .slide-adver{
     width: 100%;
     height: 60px;
-    background-color: red;
 }
 .wrap-img{
     width: 100px;
@@ -136,4 +141,96 @@ header{
 }
 .slide-adver ul h6{
     padding: 5px;
+}
+.swiper-button-next::after, .swiper-button-prev::after{
+    font-size: 15px !important;
+    font-weight: bolder !important;
+    color: #8b8e94;
+}
+.swiper-button-prev, .swiper-rtl .swiper-button-next{
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0 7px 25px 0 rgba(0,0,0,0.08);
+    width: 50px !important;
+    height: 50px !important;
+    font-size: 5px;
+}
+/*slider main*/
+.slidermain{
+    height: 400px;
+    width: 100%;
+    background-color: yellow;
+    object-fit: cover;
+}
+.slidermain img{
+    width: 100%;
+}
+
+/*services*/
+.wrap-services ul{
+    display: flex;
+    justify-content: space-between;
+}
+.wrap_img_service{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #f0f0f1;
+    position: relative;
+}
+.wrap_img_service img{
+    width: 100%;
+}
+.wrap_img_service i{
+    position: absolute;
+    top:35%;
+    right: 35%;
+}
+
+/*amazing*/
+.wrap-amazing{
+    width: 100%;
+    height: 294px;
+    background-color: #dd314e;
+    border-radius: 10px;
+    padding: 20px;
+}
+.amazing-right{
+
+}
+.wrap-amazing .slider-amazing ul{
+    display: flex;
+
+}
+.wrap-amazing .slider-amazing ul span{
+    color: #fff;
+    font-weight: bolder;
+    font-size: 20px;
+    margin: 0px 3px;
+}
+.wrap-amazing .slider-amazing ul li{
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+.wrap-amazing .slider-amazing .view-all{
+    display: flex;
+    color: #fff;
+}
+.wrap-product-amazing{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 158px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.wrap-product-amazing img{
+    width: 130px;
+}
+.wrap-product-amazing h6{
+    margin-top: 10px;
 }
