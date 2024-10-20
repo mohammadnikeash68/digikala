@@ -203,7 +203,7 @@ header{
     height: 294px;
     background-color: #dd314e;
     border-radius: 10px;
-    padding: 20px;
+    padding-top: 20px;
 }
 .amazing-right{
 
@@ -289,4 +289,108 @@ header{
 }
 .swiper-slide{
     text-align: center;
+}
+.wrap-banner-offer{
+    width: 100%;
+    background-color: #eceeee;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.wrap-banner-offer .offer-right{
+    display: flex;
+    align-items: center;
+    height: 108px;
+
+
+}
+.wrap-banner-offer .offer-right img{
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.btn-offer{
+    background-color: #029a49;
+    border-radius: 10px;
+    border: none;
+    padding: 5px 15px 5px 15px;
+    color: #fff;
+    height: 15px;
+    display: flex;
+    align-items: center;
+
+}
+.offer-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.offer-left ul{
+    display: flex;
+}
+.offer-left ul li{
+    margin-right: 15px;
+}
+.offer-left ul .item-offer a{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    padding: 5px;
+}
+.offer-left ul li a img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.btn-more-offer{
+    display: flex;
+    padding: 15px 15px;
+    background-color: #fff;
+    border-radius: 20px;
+    color: green;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn-more-offer i{
+    margin-right: 5px;
+}
+/*sale-special*/
+.sale-special ul{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 8px;
+}
+.sale-special ul li a{
+    width: 50px;
+    height: 50px;
+
+
+}
+.sale-special ul li a img{
+    width: 100%;
+    border-radius: 10px;
+}
+/*buyByCat*/
+.buyByCat h3{
+    text-align: center;
+}
+.buyByCat ul{
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    padding: 30px;
+
+
+}
+.buyByCat ul li{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 30px;
+}
+.buyByCat ul li a img{
+    width: 100%;
+    height: 100%;
 }
